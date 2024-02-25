@@ -1,0 +1,1 @@
+select name , salary from worker w where salary = (select max(salary) from worker w2);
